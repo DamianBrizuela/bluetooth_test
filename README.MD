@@ -33,3 +33,8 @@ Pequeño código para probar comunicación con bluetooth
 ## Listar dispositivos de bluetooth
 
 `bluetoothctl list`
+
+------------------------------------------------------------------
+## librerias de conexion OBEX
+https://pypi.org/project/obex-wrapper/
+

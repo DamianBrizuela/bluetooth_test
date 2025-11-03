@@ -16,3 +16,20 @@ Pequeño código para probar comunicación con bluetooth
     4. Instalar dependencias
 
 `pip install -r requeriments.txt`
+
+## Comandos utiles para verificar estado de bluetooth
+## Verificar bloqueos:
+
+`rfkill list bluetooth`
+
+## Eliminar bloqueos:
+
+`sudo rfkill unblock bluetooth`
+
+## Reiniciar servicio de bluetooth:
+
+`sudo systemctl restart bluetooth`
+
+## Listar dispositivos de bluetooth
+
+`bluetoothctl list`
